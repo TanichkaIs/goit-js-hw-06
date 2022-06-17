@@ -8,7 +8,7 @@ function onIncrementBtnClick () {
 }
 
 function onDecrementBtnClick () {
-    counterValue += 1;
+    counterValue -= 1;
     document.querySelector('#value').textContent = counterValue;
 }
 
