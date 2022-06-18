@@ -1,6 +1,6 @@
 const refs = {
     input: document.querySelector("#font-size-control"),
-    outputText: document.querySelectorAll("#text"),
+    outputText: document.querySelector("#text"),
 };
 
 function useInput() {

@@ -19,6 +19,6 @@ return item
 })
 
 console.log(itemList)
-for (const item of itemList) {
-  list.append(item)
-}
+
+  list.append(...itemList)
+

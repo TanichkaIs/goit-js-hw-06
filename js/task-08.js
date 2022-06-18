@@ -10,6 +10,7 @@ function onFormSubmit(event) {
         return alert("Введіть всі дані")
     };
     console.log('e-mail:', mail, "password", password);
+    console.log(formElements);
     event.currentTarget.reset();
 }
     
